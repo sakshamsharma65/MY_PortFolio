@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <nav className="flex flex-wrap justify-between md:items-center text-white px-10 pt-6 md:px-20">
-   <span className="text-4xl font-extrabold tracking-wide">Portfolio</span>
+   <span className="text-2xl font-extrabold tracking-wide">SΔK$HΔM $HΔRMΔ</span>
 
       <ul
         className={`${
