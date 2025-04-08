@@ -12,9 +12,10 @@ const Footer = () => {
             <h3 className='text-sm md:text-2xl font-normal'>Feel Free To reach out! </h3>
         </div>
         <ul className='text-sm md:text-xl flex gap-4'>
-            <li> <MdOutlineAlternateEmail size={20}/> <a href="https://mail.google.com/mail/u/0/#sent">Email</a></li>
-            <li><FaLinkedin size={20} /><a href="https://www.linkedin.com/in/saksham-sharma-94615825a/">LinkedIN</a> </li>
-            <li><FaGithub size={20}/><a href="https://github.com/sakshamsharma65">Github</a> </li>
+            <li><a href="mailto:saksham@example.com"> <MdOutlineAlternateEmail size={20} target="_blank"/> Email Me</a>
+          </li>
+            <li><a href="https://www.linkedin.com/in/saksham-sharma-94615825a/" target="_blank"><FaLinkedin size={20} />LinkedIN</a> </li>
+            <li><a href="https://github.com/sakshamsharma65" target="_blank"><FaGithub size={20}/>Github</a> </li>
         </ul>
       
     </div>

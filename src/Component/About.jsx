@@ -25,7 +25,7 @@ const About = () => {
       {/* Left Side – Image */}
       <div className="w-full md:w-1/2 flex justify-center">
         <img
-          className="h-60 md:h-80 rounded-full "
+          className="h-60 md:h-80 rounded-full transform transition duration-300 hover:scale-105 "style={{ boxShadow: '0 10px 25px rgba(0, 140, 255, 0.4)' }}
           src="image.png"
           alt="Saksham Sharma"
         />
@@ -33,10 +33,10 @@ const About = () => {
 
       {/* Right Side – Text */}
       <div className="w-full md:w-1/2">
-        <h2 className="text-3xl md:text-4xl font-bold mb-6">About Me</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-6 ">About Me</h2>
         {items.map((item, index) => (
           <div className="flex gap-4 mb-6" key={index}>
-            <FaArrowRight size={24} className="mt-1 text-green-400" />
+            <FaArrowRight size={18} className="mt-1 text-white" />
             <div>
               <h3 className="text-xl md:text-2xl font-semibold">
                 {item.title}

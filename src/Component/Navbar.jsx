@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <nav className="flex flex-wrap justify-between md:items-center text-white px-10 pt-6 md:px-20">
-   <span className="text-2xl font-extrabold tracking-wide">SΔK$HΔM $HΔRMΔ</span>
+   <span className="text-2xl font-extrabold tracking-wide mt-6 transform transition duration-300 hover:scale-105">SΔK$HΔM $HΔRMΔ</span>
 
       <ul
         className={`${
@@ -45,7 +45,7 @@ const Navbar = () => {
       {showMenu ? (
         <RiMenu2Line
           size={30}
-          className="md:hidden absolute right-10 top-6 transition-all duration-300"
+          className="md:hidden absolute right-10 mt-7 transition-all duration-300"
           onClick={toggleMenu}
         />
       ) : (
